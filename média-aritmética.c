@@ -16,5 +16,5 @@ int main() {
 
     printf("A média aritmética é: %.2f\n", media);
 
-
+    // esse código foi commitado para o repositório do GitHub
 }
