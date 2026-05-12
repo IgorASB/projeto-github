@@ -45,13 +45,15 @@ A média aritmética é: 8.00
 git clone https://github.com/IgorASB/projeto-github.git
 cd projeto-github
 
-# 2. Compile
-gcc média-aritmética.c -o media
+# 2. Compile (use aspas por causa dos acentos no nome do arquivo)
+gcc "média-aritmética.c" -o media
 
 # 3. Execute
 ./media          # Linux/macOS
 media.exe        # Windows
 ```
+
+> ⚠️ **Observação:** O nome do arquivo contém caracteres acentuados (`é`). Use sempre **aspas duplas** ao referenciar o arquivo no terminal para evitar erros em qualquer sistema operacional.
 
 ---
 
